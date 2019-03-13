@@ -1,6 +1,6 @@
 {
   "name": "parcel-plugin-simple-asset-copier",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A very simple asset copier that just looks for an assets directory.",
   "main": "index.js",
   "repository": "https://github.com/sampathsris/parcel-plugin-simple-asset-copier.git",

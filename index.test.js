@@ -7,9 +7,9 @@ let consoleErrorSpy;
 const copyAssets = require('.');
 
 const bundledEvent = 'bundled';
-const assets = './assets';
+const assets = path.join('.', 'assets');
 const bundleName = 'mock.html';
-const dest = path.dirname(bundleName);
+const dest = path.join(path.dirname(bundleName), 'assets');
 
 let bundleMock;
 let bundlerOnFn;
